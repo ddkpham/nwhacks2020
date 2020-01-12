@@ -68,6 +68,7 @@ class Upload extends React.Component {
             data: blob,
           })
 
+        // axios.get('https://nwhackbad.appspot.com/photo')
         axios.get('localhost:8080/photo')
         .then(res => {
             console.log(res);
@@ -95,6 +96,7 @@ class Upload extends React.Component {
 }
 
 const formComponent = (vm) => {
+
     return (
         <form>
             <div className="form-row">
