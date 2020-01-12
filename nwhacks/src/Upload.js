@@ -19,11 +19,7 @@ var storage = firebase.storage();
 
 // Create a storage reference from our storage service
 var storageRef = storage.ref()
-console.log("TCL: storageRef", storageRef)
 
-// Create a reference to 'mountains.jpg'
-var exampleRef = storageRef.child('example.jpg');
-console.log("TCL: exampleRef", exampleRef)
 
 const db = firebase.firestore();
 
